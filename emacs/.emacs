@@ -72,10 +72,3 @@ M-x compile.
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 
-(require 'go-mode-autoloads)
-(add-hook 'go-mode-hook
-          (lambda ()
-            (setq-default)
-            (setq tab-width 2)
-            (setq standard-indent 2)
-                (setq indent-tabs-mode nil)))
